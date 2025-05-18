@@ -1,0 +1,107 @@
+PROFESSIONAL RESUME TEMPLATE
+Version 1.0
+Last Updated: 2024
+
+===================
+TABLE OF CONTENTS
+===================
+1. Installation
+2. Usage
+3. Customization
+4. Troubleshooting
+5. Support
+
+===================
+1. INSTALLATION
+===================
+- Download index.html file
+- No additional installation required
+- Internet connection needed for CDN resources
+
+===================
+2. USAGE
+===================
+Basic Setup:
+- Open index.html in a web browser
+- No server required
+- Works offline after initial load
+
+Required Resources:
+- Tailwind CSS (via CDN)
+- AOS Library (via CDN)
+- Poppins Font (via Google Fonts)
+
+===================
+3. CUSTOMIZATION
+===================
+Profile Information:
+- Name: Update in header section
+- Title: Update in header section
+- About: Modify text in about section
+- Photo: Replace image URL
+
+Skills:
+- Add new skills in grid layout
+- Format: <div class="bg-white p-4 rounded-lg">
+- Maximum 6 skills recommended per row
+
+Experience:
+- Format for each entry:
+  * Title
+  * Company
+  * Date
+  * Description
+- Use border-l-4 for left border style
+
+Education:
+- Format for each entry:
+  * Degree
+  * Institution
+  * Year
+- Maintain consistent spacing
+
+Contact:
+- Update email
+- Update phone
+- Update social links
+- Maintain icon alignment
+
+===================
+4. TROUBLESHOOTING
+===================
+Common Issues:
+
+Images not loading:
+- Check image URL
+- Verify internet connection
+- Ensure proper image format
+
+Animations not working:
+- Check AOS script loading
+- Verify data-aos attributes
+- Clear browser cache
+
+Layout issues:
+- Check viewport settings
+- Verify Tailwind CSS loading
+- Test responsive breakpoints
+
+===================
+5. SUPPORT
+===================
+For additional support:
+- Check HTML comments
+- Validate HTML structure
+- Review Tailwind documentation
+- Verify AOS implementation
+
+Best Practices:
+- Keep content concise
+- Use professional photo
+- Maintain consistent spacing
+- Test on multiple devices
+- Update regularly
+
+===================
+END OF DOCUMENTATION
+===================
