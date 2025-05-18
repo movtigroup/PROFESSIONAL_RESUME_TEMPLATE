@@ -1,0 +1,75 @@
+/* Base Styles */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Section Titles */
+.section-title {
+    @apply text-2xl font-bold text-gray-800 mb-6 relative;
+    padding-bottom: 0.5rem;
+}
+
+.section-title::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    height: 4px;
+    background: #3B82F6;
+    border-radius: 2px;
+}
+
+/* Social Icons */
+.social-icon {
+    @apply w-10 h-10 flex items-center justify-center rounded-full bg-gray-100 text-gray-600 hover:bg-blue-500 hover:text-white transition-all duration-300;
+}
+
+/* Skill Cards */
+.skill-card {
+    @apply p-6 rounded-xl border border-gray-200 hover:shadow-lg transition-all duration-300;
+}
+
+/* Experience Cards */
+.experience-card {
+    @apply p-6 rounded-xl border border-gray-200 hover:shadow-lg transition-all duration-300;
+}
+
+/* Project Cards */
+.project-card {
+    @apply p-6 rounded-xl border border-gray-200 hover:shadow-lg transition-all duration-300;
+}
+
+/* Tech Tags */
+.tech-tag {
+    @apply px-3 py-1 rounded-full bg-blue-100 text-blue-800 text-sm;
+}
+
+/* Contact Info */
+.contact-info {
+    @apply flex items-center space-x-4 p-4 rounded-xl border border-gray-200 hover:shadow-lg transition-all duration-300;
+}
+
+/* Animations */
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0px); }
+}
+
+.floating {
+    animation: float 3s ease-in-out infinite;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .section-title {
+        text-align: center;
+    }
+    .section-title::after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
