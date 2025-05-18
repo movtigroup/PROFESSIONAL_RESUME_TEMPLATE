@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Resume | Frontend Developer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body class="bg-gradient-to-br from-gray-50 to-gray-100">
+    <div class="container mx-auto p-4 max-w-5xl">
+        <!-- Header Section -->
+        <header class="bg-white rounded-2xl shadow-lg p-8 mb-8" data-aos="fade-down">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="relative w-48 h-48 md:mr-8 mb-4 md:mb-0">
+                    <img src="profile-image.jpg" alt="Alex Johnson" 
+                         class="rounded-full w-full h-full object-cover border-4 border-blue-500 shadow-xl">
+                    <div class="absolute -bottom-2 -right-2 bg-blue-500 text-white p-2 rounded-full">
+                        <i class="fas fa-code text-xl"></i>
+                    </div>
+                </div>
+                <div class="text-center md:text-left">
+                    <h1 class="text-4xl font-bold text-gray-800">Alex Johnson</h1>
+                    <h2 class="text-2xl text-blue-500 mb-4">Senior Frontend Developer</h2>
+                    <p class="text-gray-600 max-w-xl">
+                        Passionate frontend developer with 5+ years of experience crafting beautiful and functional web experiences.
+                    </p>
+                    <div class="flex mt-4 space-x-4 justify-center md:justify-start">
+                        <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Skills Section -->
+        <section class="bg-white rounded-2xl shadow-lg p-8 mb-8" data-aos="fade-up">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="skill-card">
+                    <i class="fas fa-laptop-code text-3xl text-blue-500 mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2">Frontend Development</h3>
+                    <ul class="space-y-2">
+                        <li><i class="fas fa-check text-green-500"></i> React & Redux</li>
+                        <li><i class="fas fa-check text-green-500"></i> Vue.js</li>
+                        <li><i class="fas fa-check text-green-500"></i> TypeScript</li>
+                        <li><i class="fas fa-check text-green-500"></i> Tailwind CSS</li>
+                    </ul>
+                </div>
+                <!-- Add more skill cards -->
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section class="bg-white rounded-2xl shadow-lg p-8 mb-8" data-aos="fade-up">
+            <h2 class="section-title">Work Experience</h2>
+            <div class="space-y-8">
+                <div class="experience-card">
+                    <div class="flex items-center mb-4">
+                        <img src="google-logo.png" alt="Google" class="w-12 h-12 rounded-lg mr-4">
+                        <div>
+                            <h3 class="text-xl font-semibold">Senior Frontend Developer</h3>
+                            <p class="text-blue-500">Google, Inc</p>
+                        </div>
+                        <div class="ml-auto text-right">
+                            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">
+                                2020 - Present
+                            </span>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">
+                        Led development of Google's internal tools using React and TypeScript.
+                        Improved performance by 40% through code optimization.
+                    </p>
+                </div>
+                <!-- Add more experience cards -->
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="bg-white rounded-2xl shadow-lg p-8 mb-8" data-aos="fade-up">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="project-card">
+                    <img src="project1.jpg" alt="Project 1" class="rounded-lg mb-4">
+                    <h3 class="text-xl font-semibold mb-2">E-commerce Platform</h3>
+                    <p class="text-gray-600 mb-4">
+                        Built a full-featured e-commerce platform using React, Node.js, and MongoDB.
+                    </p>
+                    <div class="flex space-x-2">
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">MongoDB</span>
+                    </div>
+                </div>
+                <!-- Add more project cards -->
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="bg-white rounded-2xl shadow-lg p-8" data-aos="fade-up">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="contact-info">
+                    <i class="fas fa-envelope text-blue-500 text-xl"></i>
+                    <p>alex.johnson@example.com</p>
+                </div>
+                <div class="contact-info">
+                    <i class="fas fa-phone text-blue-500 text-xl"></i>
+                    <p>+1 (555) 123-4567</p>
+                </div>
+                <div class="contact-info">
+                    <i class="fas fa-map-marker-alt text-blue-500 text-xl"></i>
+                    <p>San Francisco, CA</p>
+                </div>
+                <div class="contact-info">
+                    <i class="fas fa-globe text-blue-500 text-xl"></i>
+                    <p>www.alexjohnson.dev</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true,
+            offset: 100
+        });
+    </script>
+</body>
+</html>
